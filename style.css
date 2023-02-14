@@ -1,0 +1,79 @@
+body{
+    background-image: url("image_food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    background-color: rgb(158, 131, 69);
+    height: 70px;
+}
+
+.list{
+    color :white;
+    height :40px;
+    margin-left: auto;
+    padding-top:0px;
+    width:40%;
+    word-spacing: 40px;
+    display:inline;
+}
+
+#id1{
+    word-spacing:normal;
+}
+
+.item{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    color:white;
+    padding:2px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+
+}
+
+a:hover{
+    background-color:beige;
+    color:black;
+}
+
+#id2{
+    position:absolute;
+    top:30vh;
+    left:3%;
+    width:37%;
+    color:white;
+    font-size: 20px;
+}
+
+#id3{
+    background-color:rgb(148, 131, 89);
+    color:white;
+}
+
+hr{
+    margin-top:25px;
+    width:100%;
+    height:5px;
+    background:black;
+}
+
+button{
+    border:none;
+    font-size: 25px;
+    padding:15px;
+    letter-spacing: 0.5em;
+    background-color: orange;
+}
+
+button:hover{
+    background-color:black;
+    color:white;
+}
